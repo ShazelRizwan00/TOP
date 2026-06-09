@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+#header{
+    color:rgb(246, 0, 0);
+    background-color: black;
+    text-align: center;
+}
+#Box{
+    padding:40px;
+    background-color:blueviolet;
+
+}
