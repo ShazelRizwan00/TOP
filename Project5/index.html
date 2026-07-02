@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Your Personal Library</h1>
+    <form  id="bookForm">
+        <label for="bookTitle">Book Title:</label>
+        <input type="text" id="bookTitle" name="bookTitle" required>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+        <label for="pages">Number of Pages:</label>
+        <input type="number" id="pages" name="pages" required>
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" required>
+        <button type="submit">Add Book</button>
+    </form>
+    <div id="library">
+        <table id="bookTable">
+            <thead>
+                <caption>Your Personal Library</caption><br>
+                <colgroup id="colgroup">
+                    <col span="1" style="border:1px black solid;">
+                    <col span="1" style="border:1px black solid;">
+                    <col span="1" style="border:1px black solid;">
+                    <col span="1" style="border:1px black solid;">
+                </colgroup>
+                <tr>
+                    <th>Book Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="bookTableBody"></tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
