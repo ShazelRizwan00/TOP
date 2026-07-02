@@ -87,3 +87,22 @@ header{
 body{
     margin:0px;
 }
+#sub:hover{
+    color:#3882F6
+}
+#like:hover{
+    color:#3882F6
+}
+#share:hover{
+    color:#3882F6
+}
+#button:hover{
+    background-color:Red;
+    color:Black;
+}
+
+#button:active{
+    background-color:Green;
+    color:White;
+    transform: scale(0.95);
+}
